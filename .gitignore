@@ -1,0 +1,18 @@
+# build output
+dist/
+# generated types
+.astro/
+# dependencies
+node_modules/
+# logs
+npm-debug.log*
+# environment variables
+.env
+.env.production
+# macOS
+.DS_Store
+# source archive / extraction (reference only)
+public_html.rar
+extracted/
+# real SMTP creds for the contact form live only on the server
+public/contact.config.php
